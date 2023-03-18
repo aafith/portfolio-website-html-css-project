@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    background: #000000;
+}
+
+.text-color {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.text-color:hover {
+    color: #008000;
+}
+
+.btn {
+    background: none;
+    border: 1px solid #ffffff;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn:hover {
+    opacity: 80%;
+}
+
+.textH3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    position: relative;
+}
+
+.textH3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: #008000;
+    height: 3px;
+    box-sizing: border-box;
+    width: 80px;
+}
+
+/* NAV BAR SECTION */
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    height: auto;
+    background: #000000;
+    padding: 1px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    padding: 7px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+}
+
+.nav-bar ul .call-to {
+    color: #ffffff;
+    float: right;
+}
+
+.nav-bar ul .call-to {
+    color: #ffffff;
+    float: right;
+    margin-right: 15px;
+}
+
+/* Home */
+#home {
+    padding-bottom: 70px;
+    background-image: url("bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home .abt {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    z-index: 2;
+    padding: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#home .abt .f-name {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#home .abt .l-name {
+    margin-top: -50px;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+#home .abt p {
+    margin-top: -50px;
+    letter-spacing: 10px;
+}
+
+#home .abt .btn-li {
+    margin-top: 30px;
+}
+
+#about {
+    background-image: url("man.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#about .ab {
+    padding: 150px;
+    width: 500px;
+}
+
+#resume {
+    padding: 20px;
+}
+
+#resume .content .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 170px;
+}
+
+#resume .content .row ul li {
+    padding-bottom: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#resume .content .row ul .r-text {
+    font-size: 20px;
+}
+
+#resume .content .row .job {
+    font-size: 10px;
+    margin-left: 50px;
+}
+
+#contact-us {
+    padding: 50px;
+    margin-left: 400px;
+}
+
+#contact-us form {
+    display: grid;
+    padding: 20px;
+}
+
+#contact-us form label {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+#contact-us form input {
+    width: 400px;
+    padding: 12px;
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#contact-us form #subject {
+    width: 400px;
+    height: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #ccc;
+    background: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+#contact-us form #submit {
+    background-color: #008000;
+    color: white;
+    width: 160px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact-us form #submit:hover {
+    background-color: #45a049;
+}
+
+footer{
+    background: #000000;
+    text-align: center;
+}
